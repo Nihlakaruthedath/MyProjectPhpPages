@@ -42,9 +42,7 @@
     <!-- Top Bar -->
     
     <!-- #Top Bar -->
-    
-
-    <section class="content">
+        <section class="content">
         <div class="container-fluid">
             
             <!-- Basic Table -->
@@ -52,76 +50,75 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="header">
-                            <h2>
-                                WASTE GENERATORS LIST
-                                
+                            <h2  style="float:left;">
+                                 AREA 
+
+                               
                             </h2>
-                            
+                            <a class="btn btn-success" style="float:right;" href="#">ASSIGN</a>
                         </div>
                         <div class="body table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
                                         <th>#</th>
+                                        <th>SUBSCRIBER ID</th>
                                         <th>NAME</th>
-                                        <th>USER NAME</th>
                                         <th>ADDRESS</th>
                                         <th>CONTACT</th>
-                                        <th>MANAGE</th>
                                     </tr>
-                                </thead>
-
-              <tbody>
+                                    
+                                         </thead>
+                                         <tbody>
                     <tr>
                 <td>1</td>
                   <td>12345</td> 
                   <td>RAJ</td> 
                   <td>LOSSA</td> 
                   <td>9514857155</td> 
-                  <td><a href="assigntask.php"><i class="material-icons">visibility</i></td>
                   </tr>
                   <td>2</td>
                   <td>37866</td> 
                   <td>RAM</td> 
                   <td>HEMANDEY</td> 
-                  <td>9584757846</td>
-                  <td><a href="assigntask.php"><i class="material-icons">visibility</i></td> 
+                  <td>9584757846</td> 
                    <tr></tr>
                   </tr>
               </tbody>
+
+
+                                
+                                                                <tbody>
+
+
+
+
                                  <!-- <?php
-  		include("connect.php");
-  		$sql = ("SELECT * FROM  signup");
-	
+     include("connect.php");
+        $sql = ("SELECT * FROM  signup");
+    
         $result = mysql_query($sql) or die(mysql_error()); 
-					
+                    
 
             If(mysql_num_rows($result)>0)
             {$i=0;
                  while($row=mysql_fetch_array($result))
-				 {  
-	
+                 {  
+    
                 ?> -->
-                <!-- <tr>
-                <td><?php echo ++$i; ?> </td>
-                  <td><?php echo $row['name']; ?></td> 
-                  <td><?php echo $row['email']; ?></td> 
-                  <td><?php echo $row['address']; ?></td> 
-                  <td><?php echo $row['mobno']; ?></td> 
-                  <td><a href="editcust.php?id=<?php echo $row['loginid']; ?>"> <i class="material-icons">border_color</i></a>
-                   <a href="deletecust.php?id=<?php echo $row['loginid']; ?>"> <i class="material-icons">delete_forever</i></a></td>
-                  </tr> -->
-
-                <?php
+                
+                <!-- <?php
 
                 }
                 }
-                 ?>
+                 ?> -->
                                 
                                 
                                 </tbody>
+
                                 <!--DATA FROM DATABASE VENAM-->
                             </table>
+                            <tr><button type="button" formaction="collectingagent.php">ASSIGN</button></tr>
                         </div>
                     </div>
                 </div>
@@ -147,7 +144,8 @@
             <!-- #END# With Material Design Colors -->
         </div>
     </section> 
-
+     
+ 
     <!-- Jquery Core Js -->
     <script src="../plugins/jquery/jquery.min.js"></script>
 

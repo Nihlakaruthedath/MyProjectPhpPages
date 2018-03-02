@@ -125,8 +125,8 @@
                     <img src="../images/user.png" width="48" height="48" alt="User" />
                 </div>
                 <div class="info-container">
-                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">john</div>
-                    <div class="email">john.doe@example.com</div>
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SmarTrash</div>
+                    <div class="email">smartrash@example.com</div>
                     <div class="btn-group user-helper-dropdown">
                         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                         <ul class="dropdown-menu pull-right">
@@ -163,9 +163,28 @@
                             
                         </ul>
                     </li>
+                    <li>
+                            <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">cached</i>
+                            <span>Recyclers</span>
+                        </a> 
+                        <ul class="ml-menu">
+                        <li>
+                                <a href="Recyclerslist.php"><span>Recyclers List</span></a>
+                            </li>
+                             <li>
+                                <a href="recyclers.php"><span>Add Recycler</span></a>
+                            </li>
+                             
+                            
+                        </ul>
+
+
+                    </li>
+                    
                      <li>
                         <a href="Subscriptions.php">
-                            <i class="material-icons">delete_sweep</i>
+                            <i class="material-icons">storage</i>
                             <span>Subscriptions</span>
                         </a> 
 
@@ -180,7 +199,7 @@
                          <ul class="ml-menu">
                            <li>
                                 
-                                <a href="neworders.php"> <span>New orders</span>
+                                <a href="assigntask.php"> <span>Assign Task</span>
                                 </a>
                                 <ul class="ml-menu">
                                </ul>
@@ -188,7 +207,7 @@
                         
                             <li>
                                 <!--<a href="javascript:void(0);">-->
-                                <a href=" pending.php"><span> pending</span>
+                                <a href=" pending.php"><span>Pending Tasks</span>
                                 </a>
                                 <ul class="ml-menu">
                                   
@@ -196,7 +215,7 @@
                             </li>
                             <li>
                                 
-                                <a href="completed.php"> <span>Completed</span>
+                                <a href="completed.php"> <span>Completed Tasks</span>
                                 </a>
                                 <ul class="ml-menu">
                                 </ul>
@@ -217,7 +236,7 @@
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                    &copy; 2016 <a href="javascript:void(0);">SmarTrash</a>.
+                    &copy; 2018 <a href="javascript:void(0);">SmarTrash</a>.
                 </div>
                 <div class="version">
                     <b>Version: </b> 1.0.0

@@ -53,7 +53,7 @@
                     <div class="card">
                         <div class="header">
                             <h2>
-                                WASTE GENERATORS LIST
+                                RECYCLERS LIST
                                 
                             </h2>
                             
@@ -63,32 +63,32 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
+                                        <th>ID</th>
                                         <th>NAME</th>
-                                        <th>USER NAME</th>
                                         <th>ADDRESS</th>
                                         <th>CONTACT</th>
-                                        <th>MANAGE</th>
+                                        <th>EMAIL</th
                                     </tr>
                                 </thead>
-
-              <tbody>
-                    <tr>
-                <td>1</td>
+                                <tbody>
+                                    <tbody>
+                <tr>
+                  <td>1</td>
                   <td>12345</td> 
                   <td>RAJ</td> 
                   <td>LOSSA</td> 
-                  <td>9514857155</td> 
-                  <td><a href="assigntask.php"><i class="material-icons">visibility</i></td>
-                  </tr>
+                  <td>9514857155</td>
+                  <td>raj@gmail.com<td/>
+                   
+                </tr>
+                <tr>
                   <td>2</td>
                   <td>37866</td> 
                   <td>RAM</td> 
                   <td>HEMANDEY</td> 
-                  <td>9584757846</td>
-                  <td><a href="assigntask.php"><i class="material-icons">visibility</i></td> 
-                   <tr></tr>
+                  <td>9584757846</td> 
+                   <td>ram@gmail.com</td>
                   </tr>
-              </tbody>
                                  <!-- <?php
   		include("connect.php");
   		$sql = ("SELECT * FROM  signup");
@@ -110,13 +110,12 @@
                   <td><?php echo $row['mobno']; ?></td> 
                   <td><a href="editcust.php?id=<?php echo $row['loginid']; ?>"> <i class="material-icons">border_color</i></a>
                    <a href="deletecust.php?id=<?php echo $row['loginid']; ?>"> <i class="material-icons">delete_forever</i></a></td>
-                  </tr> -->
-
+                  </tr>
                 <?php
 
                 }
                 }
-                 ?>
+                 ?> -->
                                 
                                 
                                 </tbody>

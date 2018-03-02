@@ -34,7 +34,7 @@ if(isset($name) && ($mobile) )
         else
         {
                 
-            //move_uploaded_file($_FILES["image"]["tmp_name"],"customers/$image");
+            //move_uploaded_file($_FILES["image"]["tmp_name"],"customers/$image");s
            // mysql_query("insert into login(username,password) values ('$name','$password')")or die(mysql_error());
             //$r=mysql_query("SELECT MAX(id) FROM login")or die(mysql_error());
             //$rr=mysql_fetch_array($r);

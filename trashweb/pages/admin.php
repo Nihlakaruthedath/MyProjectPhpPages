@@ -124,6 +124,7 @@
                                  new users
                             </div>
                             <ul class="dashboard-stat-list">
+
                                 <li>
                                     TODAY
                                     <span class="pull-right"><b>1 200</b> <small>USERS</small></span>
@@ -141,8 +142,8 @@
                     </div>
                 </div>
                 <!-- #END# Visitors -->
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                	<div id="piechart" style="width: 400px; height: 300px;"></div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                	<div id="piechart" style="width: 400px; height: 220px;"></div>
                 </div>
                 </div>
 
@@ -224,7 +225,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
 	theme: "light2",
 	title:{
-		text: "Simple Line Chart"
+		text: "Monthly Subscriptions"
 	},
 	axisY:{
 		includeZero: false

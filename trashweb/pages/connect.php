@@ -2,5 +2,5 @@
 <?php 
 $con=mysql_connect("localhost","root","");
 
-	mysql_select_db("smartdb",$con);
+	mysql_select_db("SmarTrashdb",$con);
 ?>
